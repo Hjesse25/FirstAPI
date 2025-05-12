@@ -10,3 +10,13 @@ Accept: application/json
 ###
 GET {{rootURL}}/api/books/2
 Accept: application/json
+
+###
+POST {{rootURL}}/api/books
+Content-Type: application/json
+{
+    "id": 6,
+    "title": "C# Unlocked",
+    "author": "Alen",
+    "yearPublished": 2024
+}
