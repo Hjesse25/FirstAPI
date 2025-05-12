@@ -20,3 +20,16 @@ Content-Type: application/json
     "author": "Alen",
     "yearPublished": 2024
 }
+
+###
+PUT {{rootURL}}/api/books/5
+Content-Type: application/json
+{
+    "id": 5,
+    "title": "Moby-Dick",
+    "author": "Alen",
+    "yearPublished": 1851
+}
+
+### 
+DELETE {{rootURL}}/api/books/4
